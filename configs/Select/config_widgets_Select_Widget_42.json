@@ -1,0 +1,255 @@
+{
+  "selectionColor": "#00FFFF",
+  "selectionMode": "partial",
+  "enableByDefault": true,
+  "allowExport": false,
+  "includeRuntimeLayers": true,
+  "geometryTypes": [
+    "EXTENT"
+  ],
+  "layerState": {
+    "ParcelPoly_Full_Assessor_Data_5916": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_3060": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_1494": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_8074": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_8163": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_2391": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_6007": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_2149": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_4764": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_5046": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_3836": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_6019": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_9887": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_9157": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_7509": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_6545": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_2307": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_2742": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_800": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_6920": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_7875": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_7152": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_9591": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_8529": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_2638": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_4363": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_8101": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_970": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_7600": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_9015": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_210": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_2709": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_9225": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_1001": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_898": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_7187": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_1367": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_67": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_6382": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_4623": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_9453": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_8175": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_1497": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_5856": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_5498": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_270": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_6746": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_585": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_2445": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_5530": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_3714": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_6352": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_5518": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_8851": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_582": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_4168": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_2660": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_8184": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_7694": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_845": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_8905": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_1299": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_3218": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_6312": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_2694": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_7499": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_2360": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_4685": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_2407": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_6815": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_5212": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_7879": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_4535": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_6764": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_2400": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_7228": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_1561": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_3195": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_7790": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_2147": {
+      "selected": true
+    },
+    "Master_Brunswick_GIS_gdb_6249": {
+      "selected": true
+    }
+  }
+}
