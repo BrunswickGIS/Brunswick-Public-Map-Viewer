@@ -1,0 +1,25 @@
+<div style="width: 100%">
+    <table class="setting-table input-table" cellspacing="0">
+        <tbody>
+            <tr>
+                <td title="${nls.title}" class="first">${nls.title}</td>
+                <td class="second" style="padding: 0px 3px 0px;width:287px">
+                    <input type="text" id="textBoxChange" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="name" maxlength="50"
+                           required="true" placeholder="${nls.title}" data-dojo-props="style:{width:'100%'},intermediateChanges:true" />
+                </td>
+            </tr>
+            <tr>
+                <td class="first"></td>
+                <td class="second warning">${nls.foldernameexists}</td>
+
+            </tr>
+            <tr>
+                <td class="first"></td>
+                <td class="second" style="display:none">
+                    <div data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="expandedCbx"
+                         data-dojo-props="label:'${nls.expanded}',checked:false"></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

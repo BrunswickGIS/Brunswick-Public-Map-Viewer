@@ -1,0 +1,112 @@
+<div>
+  <table class="show-legend-checkbox">
+    <tbody>
+      <tr>
+        <td data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="showTitle">
+        </td>
+        <td class="label">${nls.showTitle}</td>
+      </tr>
+      <tr>
+        <td data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="showBasemap">
+        </td>
+        <td class="label">${nls.showBasemap}</td>
+      </tr>
+      <tr>
+        <td data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="showLegend">
+        </td>
+        <td class="label">${nls.showLegend}</td>
+      </tr>
+      <tr>
+        <td data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="expandAllLayersByDefault">
+        </td>
+        <td class="label">${nls.expandAllLayersByDefault}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="control-popupmenu-part" data-dojo-attach-point="controlPopupMenuPart">
+    <div class="title">${nls.controlPopupMenuTitle}</div>
+    <table class="control-popupmenu-table">
+      <tbody>
+        <tr>
+          <td>
+            <div class="control-popupmenu-item" itemKey="zoomto" checked="true" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="zoomto">
+            </div>
+          </td>
+          <td class="label">${nls.zoomto}</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="control-popupmenu-item" itemKey="transparency" checked="true" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="transparency">
+            </div>
+          </td>
+          <td class="label">${nls.transparency}</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="control-popupmenu-item" itemKey="controlPopup" checked="true" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="controlPopup">
+            </div>
+          </td>
+          <td class="label">${nls.controlPopup}</td>
+        </tr>
+        <tr style="display:none">
+          <td>
+            <div class="control-popupmenu-item" itemKey="moveup movedown" checked="true" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="moveupDown">
+            </div>
+          </td>
+          <td  class="label">${nls.moveUpAndDown}</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="control-popupmenu-item" itemKey="table" checked="true" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="table">
+            </div>
+          </td>
+          <td class="label">${nls.attributeTable}</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="control-popupmenu-item" itemKey="url" checked="true" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="url">
+            </div>
+          </td>
+          <td  class="label">${nls.url}</td>
+        </tr>
+		<tr>
+          <td>
+            <div class="control-popupmenu-item" itemKey="visibilityRange" checked="true" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="showVisibilityRange">
+            </div>
+          </td>
+          <td  class="label">${nls.visibilityRange}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="layer-selector-part" data-dojo-attach-point="controlPopupMenuPart"></div>
+    <div class="title">${nls.layerSelectorTitle}</div>
+    <div class="layer-selector-div" data-dojo-attach-point="layerSelectorDiv"></div>
+     <div class="arrowsSec">
+         <button class="moveRight" title="Move to folder" data-dojo-attach-event="onclick:MoveToFolders"></button>
+         <button class="moveRightAll" title="Move all Layers to folder" data-dojo-attach-event="onclick:_MoveMultipleToFolder"></button>
+         <button class="moveLeft" title="Move to layerlist" data-dojo-attach-event="onclick:MoveToLayerList"></button>
+            <button class="moveLeftAll" title="Move all layers to default" data-dojo-attach-event="onclick:MoveFolderlevellayersToLayerList"></button>
+     </div>
+      <div class="layer-selector-div1" data-dojo-attach-point="">
+      <div class="title">${nls.customfoldersDiv}</div>
+      <button class="jimu-btn jimu-popup-action-btn addBtn" title="Create new folder" data-dojo-attach-event="onclick:_onBtnAddFolderClicked">+ ${nls.addFolder}</button>
+          <div class="folder-list-body">
+            <div  id="customFolderDiv" data-dojo-attach-point="folderListbody"></div>
+
+              <table cellpadding="5" cellspacing="0" class="cust-list-table">
+                  <tbody class="layers-list-body" id="WithoutFolder" data-dojo-attach-point="layerListbody"></tbody>
+                  <tbody class="layers-list-body" id="TableWithoutFolder" data-dojo-attach-point="tableListbody"></tbody>
+              </table>
+              <!--<div  id="WithoutFolder" data-dojo-attach-point="layerListbody">
+
+                 
+  </div>
+              <div id="TableWithoutFolder" data-dojo-attach-point="tableListbody">
+              </div>-->
+         
+</div>
+</div>
+</div>
