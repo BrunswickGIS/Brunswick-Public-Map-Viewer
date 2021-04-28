@@ -47,7 +47,8 @@
         },
         "version": "2.18",
         "id": "themes_LaunchpadTheme_widgets_Header_Widget_21",
-        "name": "Header"
+        "name": "Header",
+        "config": null
       },
       {
         "uri": "widgets/Search/Widget",
@@ -175,10 +176,10 @@
         },
         "placeholderIndex": 1,
         "id": "_32",
+        "name": "Share",
         "version": "2.18",
         "closeable": true,
         "uri": "widgets/Share/Widget",
-        "name": "Share",
         "config": "configs/Share/config__32.json"
       },
       {
@@ -294,20 +295,20 @@
         "id": "widgets_Measurement_Widget_37"
       },
       {
+        "name": "Draw",
+        "version": "2.18",
+        "uri": "widgets/Draw/Widget",
+        "config": "configs/Draw/config_widgets_Draw_Widget_38.json",
+        "index": 6,
+        "id": "widgets_Draw_Widget_38"
+      },
+      {
         "name": "BasemapGallery",
         "version": "2.18",
         "uri": "widgets/BasemapGallery/Widget",
         "config": "configs/BasemapGallery/config_widgets_BasemapGallery_Widget_39.json",
-        "index": 6,
-        "id": "widgets_BasemapGallery_Widget_39"
-      },
-      {
-        "name": "Draw",
-        "version": "2.18",
-        "uri": "widgets/Draw/Widget",
-        "config": "configs/Draw/config_widgets_Draw_Widget_43.json",
         "index": 7,
-        "id": "widgets_Draw_Widget_43"
+        "id": "widgets_BasemapGallery_Widget_39"
       }
     ],
     "groups": []
