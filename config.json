@@ -34,8 +34,7 @@
         },
         "version": "2.18",
         "id": "themes_LaunchpadTheme_widgets_AnchorBarController_Widget_20",
-        "name": "AnchorBarController",
-        "config": null
+        "name": "AnchorBarController"
       },
       {
         "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
@@ -109,8 +108,8 @@
         "name": "MyLocation"
       },
       {
-        "uri": "widgets/Streetview/Widget",
-        "version": "1.2",
+        "uri": "widgets/AttributeTable/Widget",
+        "version": "2.18",
         "position": {
           "right": 20,
           "bottom": 80,
@@ -118,10 +117,10 @@
         },
         "closeable": true,
         "id": "widgets_AttributeTable_Widget_27",
-        "name": "Streetview",
+        "name": "AttributeTable",
         "openAtStart": false,
-        "label": "Streetview_2",
-        "placeholderIndex": 1
+        "placeholderIndex": 1,
+        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_27.json"
       },
       {
         "uri": "widgets/Coordinate/Widget",
@@ -281,22 +280,11 @@
         "id": "widgets_Layers Management_Widget_36"
       },
       {
-        "name": "AttributeTable",
-        "version": "2.18",
-        "uri": "widgets/AttributeTable/Widget",
-        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_44.json",
-        "index": 4,
-        "id": "widgets_AttributeTable_Widget_44",
-        "position": {
-          "relativeTo": "map"
-        }
-      },
-      {
         "name": "BasemapGallery",
         "version": "2.18",
         "uri": "widgets/BasemapGallery/Widget",
         "config": "configs/BasemapGallery/config_widgets_BasemapGallery_Widget_39.json",
-        "index": 5,
+        "index": 4,
         "id": "widgets_BasemapGallery_Widget_39"
       },
       {
@@ -304,7 +292,7 @@
         "version": "2.18",
         "uri": "widgets/Measurement/Widget",
         "config": "configs/Measurement/config_widgets_Measurement_Widget_37.json",
-        "index": 6,
+        "index": 5,
         "id": "widgets_Measurement_Widget_37"
       },
       {
@@ -312,8 +300,23 @@
         "version": "2.18",
         "uri": "widgets/Draw/Widget",
         "config": "configs/Draw/config_widgets_Draw_Widget_43.json",
-        "index": 7,
+        "index": 6,
         "id": "widgets_Draw_Widget_43"
+      },
+      {
+        "name": "Select",
+        "version": "2.18",
+        "uri": "widgets/Select/Widget",
+        "config": "configs/Select/config_widgets_Select_Widget_45.json",
+        "index": 7,
+        "id": "widgets_Select_Widget_45"
+      },
+      {
+        "name": "Streetview",
+        "version": "1.2",
+        "uri": "widgets/Streetview/Widget",
+        "index": 8,
+        "id": "widgets_Streetview_Widget_44"
       }
     ],
     "groups": []
