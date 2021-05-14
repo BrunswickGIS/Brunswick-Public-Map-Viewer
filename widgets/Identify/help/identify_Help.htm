@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta content="NOINDEX,FOLLOW" name="ROBOTS" />
+  <meta content="en" name="content-language" />
+  <title>Web AppBuilder for ArcGIS | Help - Identify Widget</title>
+  <link href="rsrc/common.css" type="text/css" rel="stylesheet" />
+  <link href="rsrc/screen.css" type="text/css" rel="stylesheet" />
+  <link rel="shortcut icon" href="images/help.png" type="image/x-icon">
+</head>
+
+<body style="padding: 20px;">
+  <div class="toc">
+    <h5>In this topic</h5>
+    <ol>
+      <li><a href="#ESRI_SECTION1_DDBD4D2E6A354DBC868DA37BD0C9DE6F">Configuring the Identify Widget</a>
+      </li>
+      <li><a href="#ESRI_SECTION1_93B7EEDFDDDB4389B1F994E7792FF6DA">Using the Identify Widget</a>
+        <ol>
+          <li><a href="#GUID-DABC3A28-3643-47CA-B2EB-86354F8D79E8">Results</a>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </div>
+  <h1 class="divider page-title">Identify Widget Version 2.14</h1>
+  <section class="section1 padded-anchor" id="GUID-427FD8E9-7F89-4FDD-981C-E39B8F23C663" purpose="section1">
+    <h2></h2>
+    <p id="GUID-58542db1-d0e7-4f8a-8895-4d8d2ca41a3f">The Identify Widget allows you to retrieve information from source data by executing a predefined query(s).</p>
+
+    <p id="GUID-54577fa3-34ae-479b-8700-3c6131c6740c">The Identify Widget serves as a means to retrieve attributes for the identified features in your map. By drawing a geometry type using the Identify Widget the underlying features in the map that intersect the drawn geometry will be identified and the results displayed in the Identify Widgets results tab. The results can be configured on a layer by layer basis and the results attributes can have formatting specified.</p>
+  </section>
+  <section class="section1 padded-anchor" id="ESRI_SECTION1_DDBD4D2E6A354DBC868DA37BD0C9DE6F" purpose="section1">
+    <h2>Configuring the Identify Widget</h2>
+    <p id="GUID-31f62bed-bee5-41a9-bd79-7e019be9e004">The following steps indicate how to create a identify layer. Repeat these steps if you need to define multiple identify layers.</p>
+  </section>
+  <section class="wfsteps padded-anchor" purpose="wfsteps">
+    <h4></h4>
+    <div class="steps" id="GUID-CCB64297-6506-46F5-9010-7AE4DB1ED980">
+      <ol>
+        <li purpose="step" id="GUID-315c0f96-9ac7-4e90-9fba-b2dfe557217f">
+          <span purpose="cmd" id="GUID-476e48ee-a3dd-481b-bf3d-9666491a8560">Hover the mouse over the Identify Widget and click the small edit icon
+              <img purpose="img" placement="inline" alt="Edit" title="Edit" src="images/GUID-31D329BD-BC73-4BBE-AE1D-3A1261BF912A-web.png">
+            </span>
+          <div class="stepresult" purpose="stepresult">
+            <p id="GUID-5BBC15C5-D5CB-4FC5-B849-53E856BC4642">The configuration window for this widget opens.</p>
+            <div class="image" purpose="image">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img class="break" src="images/GUID-28712196-12E0-4718-AE48-ACC945D39528-web.png" purpose="img" alt="Add new search" title="Add new search">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </li>
+        <li purpose="step" id="ESRI_STEP_1"><span purpose="cmd" id="GUID-0BF93AA2-EA79-4B8E-BC7C-5AACD6C115CF">Optionally, click <span class="uicontrol">change widget icon</span> if you want to replace the default icon for this widget.</span>
+          <div class="stepresult" purpose="stepresult">
+            <p id="GUID-00ECBC9C-227E-417A-824E-AEC92A6216E6">A file explorer window opens allowing you to browse to a local image file to use as the widget icon.</p>
+          </div>
+        </li>
+        <li purpose="step" id="ESRI_STEP_2"><span purpose="cmd" id="GUID-720E6BFA-56E6-4FD3-A050-F7151EEE9A5C">Click <span class="uicontrol">Add a Identify Layer</span> under Settings.</span>
+          <div class="stepresult" purpose="stepresult">
+            <p id="GUID-195793D7-B1A5-40E0-8A1C-8BD3BBA196DD">The new identify layer dialog opens. Now enter the <span class="uicontrol">Identify URL</span> of the service layer that you wish to use in the widget.</p>
+            <p id="GUID-73CC4E7E-55C9-4D9C-A49C-6C4295C9B240"></p>
+            <div class="image" purpose="image">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img class="break" src="images/GUID-68ECFA80-6E1C-44E7-8332-CC3AFB5831F7-web.png" purpose="img" alt="Add Search Layer" title="Add Search Layer">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p></p>
+            <p id="GUID-6F5AEB32-9D8B-4BEC-AF22-7AA54E76D80D">Once you have entered the url, click into another field or press enter on the keyboard in order to load the layers fields into the <span class="uicontrol">Available Fields</span> grid.</p>
+            <div class="image" purpose="image">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img class="break" src="images/GUID-363203F4-2C68-42D3-BD88-9A1A8011C6C3-web.png" purpose="img" alt="Add Service URL" title="Add Service URL">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </li>
+        <li purpose="step" id="ESRI_STEP_3"><span purpose="cmd" id="GUID-ED1CFA68-BE5D-436B-BD87-1CDB01538895">Select individual fields from the <span class="uicontrol">Available Fields</span> grid and click the <span class="uicontrol">Include</span> button or just click the <span class="uicontrol">Include All</span> button to add all the available fields to the <span class="uicontrol">Included Fields</span> grid.</span>
+          <h3></h3>
+          <aside class="note" id="GUID-AF571DCD-4206-4CEC-BD25-0504BE3A9975">
+            <h5 class="icon-lightbulb">Tip:</h5>
+            <div class="note-content">
+              <p id="GUID-E10AE9DE-0384-472C-B961-3BD1374E124A">For raster layers that do not have any field info returned from their REST end point, a "Pixel Value" field will be automatically added to the <span class="uicontrol">Included Fields</span> grid.</p>
+            </div>
+          </aside>
+        </li>
+        <li purpose="step" id="ESRI_STEP_4"><span purpose="cmd" id="GUID-26A585DC-24BD-4F75-B106-004F656A993C">Next choose which fields to be <span class="uicontrol">PopUp Only</span> fields by selecting the check box for that field. The purpose of this option is to minimize the text displayed in the widgets results window to the essential information from the identify operation and then the popup only fields will appear in the popup.</span>
+          <h3></h3>
+          <aside class="note" id="GUID-98f9a706-641c-41d1-8c8f-3915aff7e9f5">
+            <h5 class="icon-lightbulb">Tip:</h5>
+            <div class="note-content">
+              <p id="GUID-f4d59596-e5a5-4bc0-8119-54094a1c00d5">For number and date fields an edit button will be present to allow you to edit the format of that fields data.</p>
+            </div>
+          </aside>
+          <div class="stepresult" purpose="stepresult">
+            <div class="image" purpose="image">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img class="break" src="images/GUID-93cf8782-8367-497b-8f1b-1cd2a1704b46-web.png" purpose="img" alt="Choose popup only field" title="Choose popup only field">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </li>
+        <li purpose="step" id="ESRI_STEP_5"><span purpose="cmd" id="GUID-D5B34A70-42C7-48FA-94F4-5DF554E01ED5">Give your layer a <span class="uicontrol">Name</span></span> to differentiate this layer from others in the widgets dialog.</li>
+        <li purpose="step" id="ESRI_STEP_6"><span purpose="cmd" id="GUID-F35A2330-E0C6-4EEC-97A7-D4537EBE3D1E">Optionally check the <span class="uicontrol">Force Scale</span> checkbox and specify the <span class="uicontrol">Zoom Scale</span> if you want to for the map to a certain scale when the identify result is clicked on.</span>
+        </li>
+        <li purpose="step" id="ESRI_STEP_7"><span purpose="cmd" id="GUID-0423B3A6-1F3A-4917-AF4F-136B14D9ABA3">Optionally add link(s) to your identify layer by clicking the <span class="uicontrol">Add Link</span> button.</span>
+          <div class="stepresult" purpose="stepresult">
+            <div class="image" purpose="image">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img class="break" src="images/GUID-3E2735A5-2862-4238-A87B-E0AFCDDC5DC1-web.png" purpose="img" alt="Add Link" title="Add Link">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="stepresult" purpose="stepresult">
+            <p id="GUID-C0BD22A5-07C5-4C14-ADD7-FE86281003A9">Give the link an alias and configure the other link options like <span class="uicontrol">Disable Link if Null</span> which will prevent the link from showing in the widget if the link field is null, and <span class="uicontrol">Disable link in PopUp</span> (self-explanatory), and <span class="uicontrol">PopUp Link Type</span> which assigns the link as a text hyperlink in the popup or and image link.</p>
+            <p id="GUID-C838222B-E94C-46FB-A194-CF408BCBD9A3">Set the <span class="uicontrol">Link Content</span> by assigning static text that represents the link url (i.e. http://www.esri.com) or clicking the <span class="uicontrol">Plus button</span> to add a field from the search layer that contains the link url. Do the same for the <span class="uicontrol">Link Icon Content</span>.</p>
+          </div>
+          <h3></h3>
+          <aside class="note" id="GUID-AF45189C-6625-46FC-A825-71BF6B8650D7">
+            <h5 class="icon-lightbulb">Tip:</h5>
+            <div class="note-content">
+              <p id="GUID-403A1E64-0EE6-4B51-9551-B15A368686CC">Hover over the question mark button for tips on filling the <span class="uicontrol">Content</span> boxes.</p>
+            </div>
+          </aside>
+        </li>
+        <li purpose="step" id="ESRI_STEP_8"><span purpose="cmd" id="GUID-9DABF942-C536-4AA8-B20D-064FCDB9B1D2">Click the <span class="uicontrol">OK</span> to complete the adding the identify layer step.</span>
+        </li>
+        <li purpose="step" id="ESRI_STEP_9"><span purpose="cmd" id="GUID-4EDC50CC-4B7B-4428-869F-27AB287EBAB6">Optionally, click the <span class="uicontrol">Add Exclude Identify Layer</span>.</span>
+          <div class="stepresult" purpose="stepresult">
+            <p id="GUID-D8F3080F-C0A7-40C4-903B-6739976AF259">The add exclude identify layer dialog opens, allowing you to specify layers that are in the map that should be excluded from the identify results if the <span class="uicontrol">Only These</span> option is not checked.</p>
+            <div class="image" purpose="image">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img class="break" src="images/GUID-032F90E5-1D59-43E6-BC9A-B2E16853BC2E-web.png" purpose="img" alt="Exclude Layer" title="Exclude Layer">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </li>
+        <li purpose="step" id="ESRI_STEP_10"><span purpose="cmd" id="GUID-B1AEA01A-1E78-447B-BCE5-A15C128AFAA1">Optionally, click the <span class="uicontrol">
+          Edit General Settings</span>.</span>
+          <div class="image" purpose="image">
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <img class="break" src="images/GUID-2E8BAF75-4410-4589-BD3D-823A517D14DF-web.png" purpose="img" alt="Edit General Settings" title="SEdit General Settings">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <ol>
+            <li purpose="step" id="ESRI_STEP_10.1"><span purpose="cmd" id="GUID-B85B4265-1022-478B-804B-2573ADC783D5">Optionally, define the <span class="uicontrol">Default Zoom Scale</span>.</span>
+              <div class="stepresult" purpose="stepresult">
+                <p id="GUID-C0F9BD0F-2B81-4EA9-8731-6B5BBB713256">The <span class="uicontrol">Default Zoom Scale</span> is used when zooming to identify results that are point geometry or when you have not checked the <span class="uicontrol">Return Geometry for Zoom</span>.</p>
+              </div>
+            </li>
+            <li purpose="step" id="ESRI_STEP_10.2"><span purpose="cmd" id="GUID-A8AD1F16-BDEE-4AAC-ADC6-FE7A326B32FF">Optionally, choose the <span class="uicontrol">Identify Layer Option</span>.</span>
+              <div class="stepresult" purpose="stepresult">
+                <p id="GUID-B41A7FD0-3060-4910-8F61-D2D637C78436">The <span class="uicontrol">Identify Layer Option</span> is used to specify if only the visible, top most, or all the layers will be identifed.</p>
+              </div>
+            </li>
+            <li purpose="step" id="ESRI_STEP_10.3"><span purpose="cmd" id="GUID-C6FA0B39-8C02-4F47-B1BD-0BBFA0147D5C">Optionally, set the <span class="uicontrol">Identify Tolerance</span>.</span>
+              <div class="stepresult" purpose="stepresult">
+                <p id="GUID-4E721EBF-7530-4618-B138-BDEE7576DB08">The <span class="uicontrol">Identify Tolerance</span> is the distance in screen pixels from the specified geometry within which the identify should be performed.</p>
+              </div>
+            </li>
+            <li purpose="step" id="ESRI_STEP_10.4"><span purpose="cmd" id="GUID-374DF3F2-76B7-4EC3-92F3-BD0AC7FD7A98">Optionally, check the <span class="uicontrol">Keep Identify Active</span> and <span class="uicontrol">Return Geometry for Zoom</span>.</span>
+              <div class="stepresult" purpose="stepresult">
+                <p id="GUID-B0CCC759-3CB5-46B7-B365-66E9BCB91032">The <span class="uicontrol">Keep Identify Active</span> option specifies that when an identify operation is completed that the drawing tool that is currently selected in the widget will remain active and will not be automatically disabled. This feature allows you to continue to identify multiple features on the map without having to re-select your identify geometry type each time.
+                  <br>The <span class="uicontrol">Return Geometry for Zoom</span> option is pretty self explainatory. If this option is not cheked then the default zoom scale will be used to zoom to the identify geometry that was drawn to get the results.</p>
+              </div>
+            </li>
+            <li purpose="step" id="ESRI_STEP_10.5"><span purpose="cmd" id="GUID-E6524636-8031-431D-B705-394E7EC178D6">Optionally, check the <span class="uicontrol">Select Geometry Types</span> check boxes that you want to appear in the widgets UI.</span>
+            </li>
+            <li purpose="step" id="ESRI_STEP_10.6"><span purpose="cmd" id="GUID-CDD3E378-1CC8-43BA-A7EE-90796B947A49">Optionally, check the <span class="uicontrol">Enable Mouse Over Graphic Info Windows</span> and <span class="uicontrol">Enable Mouse Over Result Info Windows</span> check boxes.</span>
+              <div class="stepresult" purpose="stepresult">
+                <p id="GUID-455DB91D-C76D-439A-8E61-2D4ACE0093FA"><span class="uicontrol">Enable Mouse Over Graphic Info Windows</span> will allow the maps info window to appear when you hover the mouse over the result graphic in the map.
+                  <br><span class="uicontrol">Enable Mouse Over Result Info Windows</span> will display the maps info window when you hover the mouse over the identify result in the widgets results UI.</p>
+              </div>
+            </li>
+            <li purpose="step" id="ESRI_STEP_10.7"><span purpose="cmd" id="GUID-B620595B-0DC9-45E4-9603-BF8A0B7A3258">Optionally, check the <span class="uicontrol">Use Map Time</span> and <span class="uicontrol">Replace Null With Empty String</span> check boxes.</span>
+              <div class="stepresult" purpose="stepresult">
+                <p id="GUID-A26B1137-D294-4CB4-882E-F408B56CE69E"><span class="uicontrol">Use Map Time</span> will allow the identify results to be confined to the maps time extent when the map is time enabled.
+                  <br><span class="uicontrol">Replace Null With Empty String</span> will display an empty string value in the results instead of the word null or undefined.</p>
+              </div>
+            </li>
+            <li purpose="step" id="ESRI_STEP_10.8"><span purpose="cmd" id="GUID-37FA13F4-2D21-49CB-8229-5984ABFE56FA">Optionally, check the <span class="uicontrol">Disable Layers Drop Down List</span> and <span class="uicontrol">Disable All Layers Choice</span> check boxes.</span>
+              <div class="stepresult" purpose="stepresult">
+                <p id="GUID-685A965F-3DA0-4342-9C8B-C137D26856A6"><span class="uicontrol">Disable Layers Drop Down List</span> will remove the <span class="uicontrol">Identify From</span> drop down box in the widgets UI, that allows the user to specify that they only want to identify features from that one selected layer.
+                  <br><span class="uicontrol">Disable All Layers Choice</span> will remove the all layers option from the <span class="uicontrol">Identify From</span> drop down box in the widgets UI.</p>
+                <div class="image" purpose="image">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img class="break" src="images/GUID-E841FB07-CA2C-4264-B15C-E908EBCFAD37-web.png" purpose="img" alt="Identify From" title="Identify From">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </li>
+            <li purpose="step" id="ESRI_STEP_10.9"><span purpose="cmd" id="GUID-272D3DE7-E282-47FF-9152-C948AE9F6A17">Optionally, set the <span class="uicontrol">Info Window Auto Close (seconds)</span> and select a <span class="uicontrol">Default activated Select Tool</span>.</span>
+              <div class="stepresult" purpose="stepresult">
+                <p id="GUID-15F7FC11-138C-4CF0-8CEC-3B16F7A65776"><span class="uicontrol">Info Window Auto Close (seconds)</span> sets the number of seconds that the info window will remain open for when not hovering over the result, graphic, or info window itself. If you set this value to 0 then the info window will not auto close.
+                  <br><span class="uicontrol">Default activated Select Tool</span> specifies which tool will be activated by default when the widget opens, to allow the user les clicks to get identifying.</p>
+              </div>
+            </li>
+            <li purpose="step" id="ESRI_STEP_10.10"><span purpose="cmd" id="GUID-BA6F958A-9E83-4FC4-975C-AA3B5519EA09">Optionally, check the <span class="uicontrol">Display map info window at a fixed position on the map (i.e popup not at the identified location).</span></span> 
+              <div class="stepresult" purpose="stepresult">
+                <p id="GUID-2EF6065A-CAB7-4878-A82E-12D410C3AA59">Setting the <span class="uicontrol">Top map coordinate (in Pixels)</span> and <span class="uicontrol">Right map coordinate (in Pixels)</span> forces the map info window to show at a fixed position on the map instead of a location based on the identify results graphic.</p>
+              </div>
+            </li>
+          </ol>
+        </li>
+        <li purpose="step" id="ESRI_STEP_11"><span purpose="cmd" id="GUID-B1AEA01A-1E78-447B-BCE5-A15C128AFAA1">Optionally, click the <span class="uicontrol">
+Edit Default Identify Symbology</span>.</span>
+          <div class="stepresult" purpose="stepresult">
+            <p id="GUID-5ab33374-c962-4d4d-bc94-e42e4c96327e">The default symbology dialog opens, allowing you to choose the color and style for the identify result symbol.</p>
+            <div class="image" purpose="image">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img class="break" src="images/GUID-e1bb154c-9291-4f75-aadf-6919e79258ba-web.png" purpose="img" alt="Select symbol in results setting" title="Select symbol in results setting">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </li>
+        <li purpose="step" id="ESRI_STEP_12"><span purpose="cmd" id="GUID-f3b26fb6-a30b-4d95-b4d8-a1a15a84cac6">Optionally, click the <span class="uicontrol">Edit Result Formatting</span>.</span>
+          <div class="stepresult" purpose="stepresult">
+            <p id="GUID-cdda7968-9bd0-4837-82c6-0dc0da88c8bc">The result formatting dialog opens, allowing you to choose the color and style for the identify result text.</p>
+            <h3></h3>
+            <aside class="note" id="GUID-1dfeda93-ba51-4008-b4b7-5ee1fe3c6871">
+              <h5 class="icon-caution-cone">Warning:</h5>
+              <div class="note-content">
+                <p id="GUID-4e66370e-5610-4232-ac3f-6cba9073df9d">If you are using the Dart Theme the text color specified for the results will not be honored as the Dart Theme will always override the text color to white. This is a Dart Theme feature and limitation to the results formatting.</p>
+              </div>
+            </aside>
+            <div class="image" purpose="image">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img class="break" src="images/GUID-cdda7968-9bd0-4837-82c6-0dc0da88c8bc-web.png" purpose="img" alt="Result Formatting" title="Result Formatting">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </li>
+        <li purpose="step" id="ESRI_STEP_13"><span purpose="cmd" id="GUID-8c89d544-87e1-4288-8767-3da9fcf86b77">Click the <span class="uicontrol">OK</span> to complete the widgets configuration.</span>
+        </li>
+      </ol>
+    </div>
+    <div class="section1" id="ESRI_SECTION1_93B7EEDFDDDB4389B1F994E7792FF6DA" purpose="section1">
+      <h2>Using the Identify Widget</h2>
+      <p id="GUID-cf0dde68-43ef-47d4-a4ca-10ea6c53ab9b">Clicking the Identify Widget in your application displays the widget. Depending on the <span class="uicontrol">Default activated Select Tool</span> choice that was made during configuration the configured identify geometry type will be selected.</p>
+      <p id="GUID-d916c6a7-43d1-454f-b7ef-1e06e460a6fd">Use of the widget can begin imediately by drawing on the map and the identify operation will begin.</p>
+      <div class="image" purpose="image">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img class="break" src="images/GUID-CFEFB435-3107-405F-AD7E-E0EA8597CC19-web.png" purpose="img" alt="List of searches" title="List of searches">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <ul purpose="ul" id="UL_4D138CDA7FFF4E5183E9B17532C8A48D">
+        <li purpose="li" id="LI_8A1B3FB0862B47219229729AC31A174D">• If you configured <span class="uicontrol">Keep Identify Active</span> then when you complete your identify operation the last selected draw tool will remain active for you to continue identifying features on the map.</li>
+        <li purpose="li" id="LI_FD66C3D85A6C4F338963A18AE78C4B00">• If you want to limit the results to one specific configured layer then you just need to change the <span class="uicontrol">Identify From</span> drop down box in the widgets UI to that specific layer.</li>
+        <div class="image" purpose="image">
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img class="break" src="images/GUID-E841FB07-CA2C-4264-B15C-E908EBCFAD37-web.png" purpose="img" alt="Identify From" title="Identify From">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </ul>
+      <h4 id="GUID-DABC3A28-3643-47CA-B2EB-86354F8D79E8">Results</h4>
+      <p id="GUID-69FDA0DF-9504-46EB-9906-956E62420F9B">The <span class="uicontrol">Results</span> view lists all the identified features and thier attributes that have been configured or if <span class="uicontrol">Only These</span> is false or not fields were specified for the layer then all the attributes for the identified feature will be listed.</p>
+      <div class="image" purpose="image">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img class="break" src="images/GUID-BB154476-8235-425C-8D51-51C889BECFC6-web.png" purpose="img" alt="Identify Results" title="Identify Results">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <ul purpose="ul" id="UL_1CF67CCABA0A4067BBCFA540A43E334F">
+        <li purpose="li" id="LI_BAA1F8EAC29D4DDB8EB80767F2E999F2">• Each result will have a remove button to allow you to remove un wanted results from the result list.</li>
+        <li purpose="li" id="LI_9EC0EFC213BB4E6EBA99FDA211D611A0">• If you configured any formatting for a attribute field like number, curency or date then the results will show that formatting.</li>
+        <li purpose="li" id="LI_A54A3C6509824364BFA1350AA4429255">• If you configured any links for the result layer then those links will appear in the results as a image at the bottom of that specific result or in the content of the result attribute if the link type was text.</li>
+        <li purpose="li" id="LI_BBEB2FB798B542D49D3E5DFE55E10844">• You can click on any of the individual results in the list to zoom to that results location.</li>
+        <li purpose="li" id="LI_696DC032A60F474AAA237E0AFB1E7C3D">• If you selected <span class="uicontrol">Enable Mouse Over Result Info Windows</span> then when mousing over the result will cause the maps info window to display.</li>
+        <li purpose="li" id="LI_44C53A7354E94623BCA1ECD0D8BFE058">• The <span class="uicontrol">Clear</span> link will remove all the returned results from the map and the widget.</li>
+      </ul>
+      <aside class="note" id="GUID-A2392E4C-2B95-4E8C-A700-692B2F859DCC">
+        <h5 class="icon-notebook">Note:</h5>
+        <div class="note-content">
+          <p id="GUID-385C356C-E2C9-4845-8E73-22BF5CDC1968">If you configured a link with type image and the link points to an actual image then the popup will display that image.</p>
+        </div>
+      </aside>
+      <div class="image" purpose="image">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img class="break" src="images/GUID-D5ECD778-C17B-4D9D-A57D-45441A5962AA-web.png" purpose="img" alt="PopUp Results" title="PopUp Results">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <aside class="note" id="GUID-377B3749-10E2-4BCE-BD37-F8A12A767891">
+        <h5 class="icon-notebook">Note:</h5>
+        <div class="note-content">
+          <p id="GUID-3FEF5FA1-BBEF-4000-958D-1853C9B65461">Version 1.1.x and above of my widgets now contain the ability for you to determine the version number of the widget at runtime. Hold the Alt key and click anywhere on the widget and a message will appear with widget version details.</p>
+        </div>
+      </aside>
+    </div>
+    <div class="wfsummary" id="GUID-EDCFDA8C-45C9-4D91-BB50-2DB989635DFA" purpose="wfsummary"></div>
+    <div class="footer">Copyright © 2019 Calhoun County Commission.</div>
+  </section>
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "allPlaceholder": "Search by Address, Maplot # or PID #",
+  "allPlaceholder": "Search by Address, Maplot # or Owner Name",
   "showInfoWindowOnSelect": true,
   "sources": [
     {
@@ -8,8 +8,24 @@
       "name": "ParcelPoly Full Assessor Data",
       "placeholder": "",
       "searchFields": [
-        "Maplot",
-        "AV_PID"
+        "Owner_Name"
+      ],
+      "displayField": "Owner_Name",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "Master_Brunswick_GIS_gdb_7694",
+      "url": "https://services8.arcgis.com/WTosIGSFx8SISAaB/arcgis/rest/services/Master_Brunswick_GIS_gdb/FeatureServer/62",
+      "name": "ParcelPoly Full Assessor Data",
+      "placeholder": "",
+      "searchFields": [
+        "Maplot"
       ],
       "displayField": "Maplot",
       "exactMatch": true,

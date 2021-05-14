@@ -191,11 +191,11 @@
         },
         "placeholderIndex": 1,
         "id": "_33",
-        "name": "Print",
-        "version": "2.18",
+        "name": "PrintPlus",
+        "version": "1.1.6",
         "closeable": true,
-        "uri": "widgets/Print/Widget",
-        "config": "configs/Print/config__33.json"
+        "uri": "widgets/PrintPlus/Widget",
+        "config": "configs/PrintPlus/config__33.json"
       },
       {
         "uri": "widgets/ExtentNavigate/Widget",
