@@ -1,0 +1,344 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "SetVisibilityRange": false,
+    "EnableOrDisablePopup": true,
+    "MoveupOrMovedown": false,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerDisplaySyncOptions": [],
+  "customFolder": [],
+  "layerOptions": {
+    "ParcelPoly_Full_Assessor_Data_9991": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 0
+    },
+    "Airport_Approach_Zone_7240": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 1
+    },
+    "Aquifer_Protection_6340": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 2
+    },
+    "Bath_Water_Service_Area_1438": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 3
+    },
+    "Brunswick_Voting_Districts_2016_7833": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 4
+    },
+    "BSD_Manholes_2758": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 5
+    },
+    "BSD_Pump_Stations_8321": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 6
+    },
+    "BSD_Service_Area_4759": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 7
+    },
+    "BSD_Sewer_Lines_3739": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 8
+    },
+    "BT_Water_Service_Area_996": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 9
+    },
+    "Cemeteries_3896": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 10
+    },
+    "Buildings_3168": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 11
+    },
+    "District_Boundary_880": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 12
+    },
+    "Downtown_Tree_Inventory_10": {
+      "display": true,
+      "folder": "WithoutFolder",
+      "displayindex": 13
+    },
+    "Flight_Zone_9789": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 14
+    },
+    "Growth_Zone_290": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 15
+    },
+    "House_Districts_2014_8886": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 16
+    },
+    "HuntingFirearms_862": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 17
+    },
+    "Hydrants_1227": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 18
+    },
+    "HydrologyLine_4326": {
+      "display": true,
+      "folder": "WithoutFolder",
+      "displayindex": 19
+    },
+    "Land_Sea_2185": {
+      "display": true,
+      "folder": "WithoutFolder",
+      "displayindex": 20
+    },
+    "Maine_Natural_Gas_4777": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 21
+    },
+    "Map_Out_Lines_5893": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 22
+    },
+    "MNAP_Rare_Plants_9162": {
+      "display": true,
+      "folder": "WithoutFolder",
+      "displayindex": 23
+    },
+    "Mobile_Home_Telecom_1674": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 24
+    },
+    "MRRA_Manholes_1762": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 25
+    },
+    "MRRA_Pump_Stations_3218": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 26
+    },
+    "MRRA_Sewer_Lines_7832": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 27
+    },
+    "Municipality_Boundaries_3054": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 28
+    },
+    "NRCS_1_24000_Soils_9299": {
+      "display": true,
+      "folder": "WithoutFolder",
+      "displayindex": 29
+    },
+    "OtherLotBoundary_926": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 30
+    },
+    "OtherRoad_7186": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 31
+    },
+    "Parcel_Lines_5541": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 32
+    },
+    "ParcelPoly_9974": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 33
+    },
+    "Parcels_Maplot_5274": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 34
+    },
+    "Parking_5910": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 35
+    },
+    "Political_Boundary_9168": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 36
+    },
+    "Railroads_Partial_2706": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 37
+    },
+    "River_2290": {
+      "display": true,
+      "folder": "WithoutFolder",
+      "displayindex": 38
+    },
+    "Road_Polygons_2703": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 39
+    },
+    "Road_Centerlines_7361": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 40
+    },
+    "ROWPropertyAccess_7718": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 41
+    },
+    "RPSMO_1168": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 42
+    },
+    "SnowPlow_Routes_4137": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 43
+    },
+    "Special_Flood_Hazard_719": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 44
+    },
+    "SPO__Shoreland_Protection_Overlay__3388": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 45
+    },
+    "SPO_RP__2_Acre_20_Percent_Slopes__4285": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 46
+    },
+    "SPO_RP__Bluff__2612": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 47
+    },
+    "SPO_RP__FEMA_100_Flood_Tidal_River__1768": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 48
+    },
+    "SPO_RP__Wetlands_H_M_Value__8096": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 49
+    },
+    "SPO_SP__Stream_Protecton_Subdistrict__8897": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 50
+    },
+    "Stormwater_Pipes_7790": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 51
+    },
+    "Stormwater_Structures_3397": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 52
+    },
+    "Trails_Update__20180302__5419": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 53
+    },
+    "Trash_Pickup_2293": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 54
+    },
+    "Treatment_Plant_7694": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 55
+    },
+    "Urban_Compact_Limits_1442": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 56
+    },
+    "VillageReviewZone_9863": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 57
+    },
+    "Watershed_DEM_9614": {
+      "display": true,
+      "folder": "WithoutFolder",
+      "displayindex": 58
+    },
+    "Watersheds_1947": {
+      "display": true,
+      "folder": "WithoutFolder",
+      "displayindex": 59
+    },
+    "Wetlands_May_2017_4093": {
+      "display": true,
+      "folder": "WithoutFolder",
+      "displayindex": 60
+    },
+    "Wildlife_Protection_Block_2619": {
+      "display": true,
+      "folder": "WithoutFolder",
+      "displayindex": 61
+    },
+    "Wildlife_Protection_Corridor_1636": {
+      "display": true,
+      "folder": "WithoutFolder",
+      "displayindex": 62
+    },
+    "Zoning_6487": {
+      "display": false,
+      "folder": "WithoutFolder",
+      "displayindex": 63
+    },
+    "2ftContours_1224": {
+      "display": true,
+      "folder": "WithoutFolder",
+      "displayindex": 64
+    }
+  }
+}

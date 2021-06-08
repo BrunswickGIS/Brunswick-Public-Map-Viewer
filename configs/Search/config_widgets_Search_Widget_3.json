@@ -1,0 +1,74 @@
+{
+  "allPlaceholder": "Find by Address, Owner Name and Maplot",
+  "showInfoWindowOnSelect": true,
+  "sources": [
+    {
+      "layerId": "ParcelPoly_9974",
+      "url": "https://services8.arcgis.com/WTosIGSFx8SISAaB/arcgis/rest/services/ParcelPoly/FeatureServer/0",
+      "name": "ParcelPoly",
+      "placeholder": "Location Address",
+      "searchFields": [
+        "LOCATION"
+      ],
+      "displayField": "LOCATION",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "ParcelPoly_9974",
+      "url": "https://services8.arcgis.com/WTosIGSFx8SISAaB/arcgis/rest/services/ParcelPoly/FeatureServer/0",
+      "name": "ParcelPoly",
+      "placeholder": "Last Name, First Name",
+      "searchFields": [
+        "OWNER_NAME"
+      ],
+      "displayField": "OWNER_NAME",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "ParcelPoly_9974",
+      "url": "https://services8.arcgis.com/WTosIGSFx8SISAaB/arcgis/rest/services/ParcelPoly/FeatureServer/0",
+      "name": "ParcelPoly",
+      "placeholder": "Map-Lot",
+      "searchFields": [
+        "Maplot"
+      ],
+      "displayField": "Maplot",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "name": "World",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Find address or place",
+      "countryCode": "USA",
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "searchInCurrentMapExtent": false,
+      "enableLocalSearch": false,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "radiusUnit": "foot",
+      "type": "locator"
+    }
+  ]
+}
